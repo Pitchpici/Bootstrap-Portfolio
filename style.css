@@ -1,0 +1,64 @@
+.container {
+/*	max-width: 75%;*/
+	background: white;
+}
+.woosh {
+	max-width: 80%;
+}
+.container-fluid {
+	margin-top: 30px;
+	margin-bottom: 90px;
+}
+body, #flowers {
+	background-image: url("images/Background pattern.jpg");
+}
+p {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 20px;
+	font-size: 240%;
+	font-weight: bold;
+}
+.row h1 {
+	border-bottom: 3px solid #cccccc;
+}
+h2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 25px 0px;
+	border-bottom: 3px solid #cccccc;
+	text-align: left;
+	font-size: 140%;
+	font-weight: bold;
+}
+.img-fluid{
+	border: 2px solid #cccccc;
+	border-radius: 15%;
+}
+.img-fluid:hover {
+	border: 2px solid #4aaaa5;
+	border-radius: 35%;
+}
+footer {
+	background-color: #666666;
+	border-top: 3px solid #4aaaa5;
+	position: fixed;
+	display: block;
+	bottom: 0;
+	text-align: center;
+	color: #ffffff;
+	width: 100%;
+	padding: 10px 0px;
+	margin-top: 30px;
+}
+#flush {
+	padding: 10px 0px;
+	margin: 0px;
+}
+.pictures {
+	height: auto;
+}
